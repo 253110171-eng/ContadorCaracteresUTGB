@@ -49,7 +49,7 @@
      <string>Contador de palabras</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="edtCaracteres">
+   <widget class="QTextEdit" name="edtCaracteres">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -59,7 +59,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="tvPalabras">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -72,10 +72,10 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Contador de palabras </string>
+     <string>Palabras 0</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="totalCarc">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -89,7 +89,7 @@
 border-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
-     <string>Contador de caracteres </string>
+     <string>Caracteres 0</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btContar">
