@@ -30,6 +30,17 @@ class ContadorPalabras (QtWidgets.QMainWindow):
             totalC += len (palabra)
         totalC
         self.totalCarc.setText(f"Caracteres: {totalC}")     
+        
+        "font: 12p"
+        #aqui la logica
+        if cantidadPalabras >=50:
+            self.tvPalabras("color: #ff756b")
+        else:
+            self.tvPalabras.setStyleSheet("color: #000000")
+        if cantidadPalabras >=50:
+            self.tvCaracteres("color: #ff756b")
+        else:
+            self.tvCaracteres.setStyleSheet("color: #000000")
       
         
 app = QtWidgets.QApplication(sys.argv)
